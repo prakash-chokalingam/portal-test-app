@@ -15,6 +15,8 @@ document.onreadystatechange = function () {
 
 function onAppActivate() {
   renderDataFields();
+  // renderInterfaceApis();
+  renderEventApis();
 }
 
 function renderDataFields() {
@@ -52,11 +54,35 @@ function renderDataFields() {
       console.log(error);
       $dataViewer.innerHTML = 'Something went wrong';
     }
-
   })
+}
 
+function renderInterface() {
 
+}
 
+function renderEventApis() {
+ let $eventViewer = document.getElementById('events-viewer');
+
+  let events = [];
+  switch (client.context.location) {
+    case 'portal_tickets_new_sidebar':
+      events = [...events, 'ticket.change']
+      break;
+
+    default:
+      break;
+  }
+
+  events.forEach((event) => {
+    console.log('Registered event', event);
+    client.events.on(event, (callback) => {
+      let data = callback.helper.getData();
+      let content = `Received event: ${event}\n\n`;
+      content = `${content} --data \n ${JSON.stringify(data, {}, 4)}`;
+      $eventViewer.innerHTML = content;
+    });
+  });
 }
 
 function handleErr(err) {
