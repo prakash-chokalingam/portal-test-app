@@ -1,0 +1,813 @@
+2021-09-13 11:45:16.290 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.13.1 on darwin[0m
+2021-09-13 11:45:16.695 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/Users/pchokalingam/Documents/Freshworks/sampleApp/.fdk/store.sqlite"[0m
+2021-09-13 11:45:16.760 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"create","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2021-09-13 11:45:16.761 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631513542179}}[0m
+2021-09-13 11:45:16.761 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631513542179}}[0m
+2021-09-13 11:45:16.761 +0530 [debug] ([34mupdater.js[0m) [31mCheck interval not met, skipping addon update[0m
+2021-09-13 11:45:16.767 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631513542179}}[0m
+2021-09-13 11:45:16.770 +0530 [debug] ([34minit.js[0m) [31m'init' called with /Users/pchokalingam/Documents/Freshworks/sampleApp, undefined, undefined[0m
+2021-09-13 11:45:19.474 +0530 [debug] ([34minit.js[0m) [31mInitializing template "your_first_app" with product "freshdesk".[0m
+2021-09-13 11:45:19.482 +0530 [info] A new Freshdesk app was successfully created from template "your_first_app" with the following files.
+
+2021-09-13 11:47:49.656 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.13.1 on darwin[0m
+2021-09-13 11:47:50.080 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/Users/pchokalingam/Documents/Freshworks/sampleApp/.fdk/store.sqlite"[0m
+2021-09-13 11:47:50.156 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2021-09-13 11:47:50.157 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631513542179}}[0m
+2021-09-13 11:47:50.158 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631513542179}}[0m
+2021-09-13 11:47:50.158 +0530 [debug] ([34mupdater.js[0m) [31mCheck interval not met, skipping addon update[0m
+2021-09-13 11:47:50.358 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.0","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[]}.[0m
+2021-09-13 11:47:50.358 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2021-09-13 11:47:50.359 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631513542179}}[0m
+2021-09-13 11:47:50.371 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631513542179}}[0m
+2021-09-13 11:47:50.681 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring /Users/pchokalingam/Documents/Freshworks/sampleApp/.report.json: Cannot find module '/Users/pchokalingam/Documents/Freshworks/sampleApp/.report.json'
+Require stack:
+- /Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/utils/file-util.js
+- /Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/index.js[0m
+2021-09-13 11:47:51.548 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631513542179}}[0m
+2021-09-13 11:47:52.317 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2021-09-13 11:47:52.317 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2021-09-13 11:47:52.317 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2021-09-13 11:47:52.318 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2021-09-13 11:47:52.319 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if /Users/pchokalingam/Documents/Freshworks/sampleApp/config/ exists.[0m
+2021-09-13 11:47:52.319 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2021-09-13 11:47:52.320 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2021-09-13 11:47:52.320 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2021-09-13 11:47:52.320 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2021-09-13 11:47:52.322 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2021-09-13 11:47:52.323 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2021-09-13 11:47:52.323 +0530 [debug] ([34mmanifest.js[0m) [31mChoosing Default validator[0m
+2021-09-13 11:47:52.324 +0530 [warn] 
+        [33m[WARN][0m We recommend to move to platform version 2.2 as we plan to deprecate the previous versions soon.
+        Please refer https://community.developers.freshworks.com/t/how-to-migrate-to-platform-version-2-2/3443 to know more details
+
+2021-09-13 11:47:52.326 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2021-09-13 11:47:52.327 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2021-09-13 11:47:52.327 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2021-09-13 11:47:52.327 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2021-09-13 11:47:52.330 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2021-09-13 11:47:52.334 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-13 11:47:52.335 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2021-09-13 11:47:52.335 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2021-09-13 11:47:52.467 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/bigint-pivot.js"[0m
+2021-09-13 11:47:52.469 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity-field-choice.js"[0m
+2021-09-13 11:47:52.469 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity-field.js"[0m
+2021-09-13 11:47:52.470 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity.js"[0m
+2021-09-13 11:47:52.471 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/record.js"[0m
+2021-09-13 11:47:52.472 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/string-pivot.js"[0m
+2021-09-13 11:47:52.491 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-13 11:47:52.492 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2021-09-13 11:47:52.493 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2021-09-14 16:50:02.069 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.13.1 on darwin[0m
+2021-09-14 16:50:03.209 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/Users/pchokalingam/Documents/Freshworks/sampleApp/.fdk/store.sqlite"[0m
+2021-09-14 16:50:03.372 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2021-09-14 16:50:03.373 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631513542179}}[0m
+2021-09-14 16:50:03.373 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631513542179}}[0m
+2021-09-14 16:50:03.373 +0530 [debug] ([34mupdater.js[0m) [31mChecking for availability of new version of addon[0m
+2021-09-14 16:50:03.736 +0530 [debug] ([34mupdater.js[0m) [31mAddon is already at the latest version - 1.9.9[0m
+2021-09-14 16:50:06.118 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.13.1 on darwin[0m
+2021-09-14 16:50:06.513 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/Users/pchokalingam/Documents/Freshworks/sampleApp/.fdk/store.sqlite"[0m
+2021-09-14 16:50:06.579 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2021-09-14 16:50:06.580 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 16:50:06.581 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 16:50:06.581 +0530 [debug] ([34mupdater.js[0m) [31mCheck interval not met, skipping addon update[0m
+2021-09-14 16:50:06.844 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.0","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[]}.[0m
+2021-09-14 16:50:06.844 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2021-09-14 16:50:06.847 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 16:50:06.863 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 16:50:08.455 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 16:50:09.182 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2021-09-14 16:50:09.182 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2021-09-14 16:50:09.182 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2021-09-14 16:50:09.183 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2021-09-14 16:50:09.183 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if /Users/pchokalingam/Documents/Freshworks/sampleApp/config/ exists.[0m
+2021-09-14 16:50:09.184 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2021-09-14 16:50:09.184 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2021-09-14 16:50:09.184 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2021-09-14 16:50:09.184 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2021-09-14 16:50:09.186 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2021-09-14 16:50:09.187 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2021-09-14 16:50:09.187 +0530 [debug] ([34mmanifest.js[0m) [31mChoosing Default validator[0m
+2021-09-14 16:50:09.188 +0530 [warn] 
+        [33m[WARN][0m We recommend to move to platform version 2.2 as we plan to deprecate the previous versions soon.
+        Please refer https://community.developers.freshworks.com/t/how-to-migrate-to-platform-version-2-2/3443 to know more details
+
+2021-09-14 16:50:09.190 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2021-09-14 16:50:09.191 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2021-09-14 16:50:09.191 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2021-09-14 16:50:09.191 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2021-09-14 16:50:09.193 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2021-09-14 16:50:09.197 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 16:50:09.198 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2021-09-14 16:50:09.198 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2021-09-14 16:50:09.342 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/bigint-pivot.js"[0m
+2021-09-14 16:50:09.344 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity-field-choice.js"[0m
+2021-09-14 16:50:09.345 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity-field.js"[0m
+2021-09-14 16:50:09.346 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity.js"[0m
+2021-09-14 16:50:09.347 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/record.js"[0m
+2021-09-14 16:50:09.347 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/string-pivot.js"[0m
+2021-09-14 16:50:09.363 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 16:50:09.365 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2021-09-14 16:50:09.366 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2021-09-14 18:37:45.090 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 18:37:45.109 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 18:37:45.110 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"ticket_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-14 19:18:40.020 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.13.1 on darwin[0m
+2021-09-14 19:18:40.438 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/Users/pchokalingam/Documents/Freshworks/sampleApp/.fdk/store.sqlite"[0m
+2021-09-14 19:18:40.511 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2021-09-14 19:18:40.512 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 19:18:40.512 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 19:18:40.512 +0530 [debug] ([34mupdater.js[0m) [31mCheck interval not met, skipping addon update[0m
+2021-09-14 19:18:40.515 +0530 [info] Installed: 6.13.2
+2021-09-14 19:18:40.986 +0530 [info] Already Up to Date..!
+2021-09-14 19:20:50.558 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.13.1 on darwin[0m
+2021-09-14 19:20:50.974 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/Users/pchokalingam/Documents/Freshworks/sampleApp/.fdk/store.sqlite"[0m
+2021-09-14 19:20:51.046 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2021-09-14 19:20:51.046 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 19:20:51.047 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 19:20:51.047 +0530 [debug] ([34mupdater.js[0m) [31mCheck interval not met, skipping addon update[0m
+2021-09-14 19:20:51.190 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.0","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[]}.[0m
+2021-09-14 19:20:51.191 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2021-09-14 19:20:51.192 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 19:20:51.201 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 19:20:51.795 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-14 19:20:52.231 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2021-09-14 19:20:52.232 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2021-09-14 19:20:52.232 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2021-09-14 19:20:52.233 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2021-09-14 19:20:52.233 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if /Users/pchokalingam/Documents/Freshworks/sampleApp/config/ exists.[0m
+2021-09-14 19:20:52.233 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2021-09-14 19:20:52.233 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2021-09-14 19:20:52.234 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2021-09-14 19:20:52.234 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2021-09-14 19:20:52.236 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2021-09-14 19:20:52.236 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2021-09-14 19:20:52.236 +0530 [debug] ([34mmanifest.js[0m) [31mChoosing Default validator[0m
+2021-09-14 19:20:52.237 +0530 [warn] 
+        [33m[WARN][0m We recommend to move to platform version 2.2 as we plan to deprecate the previous versions soon.
+        Please refer https://community.developers.freshworks.com/t/how-to-migrate-to-platform-version-2-2/3443 to know more details
+
+2021-09-14 19:20:52.240 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2021-09-14 19:20:52.240 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2021-09-14 19:20:52.241 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2021-09-14 19:20:52.241 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2021-09-14 19:20:52.243 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2021-09-14 19:20:52.247 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:20:52.248 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2021-09-14 19:20:52.248 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2021-09-14 19:20:52.416 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/bigint-pivot.js"[0m
+2021-09-14 19:20:52.417 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity-field-choice.js"[0m
+2021-09-14 19:20:52.418 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity-field.js"[0m
+2021-09-14 19:20:52.419 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity.js"[0m
+2021-09-14 19:20:52.419 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/record.js"[0m
+2021-09-14 19:20:52.420 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/string-pivot.js"[0m
+2021-09-14 19:20:52.433 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:20:52.434 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2021-09-14 19:20:52.434 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2021-09-14 19:25:00.494 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:25:00.495 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:25:00.495 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-14 19:26:58.248 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:26:58.248 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:26:58.248 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-14 19:29:55.856 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:29:55.857 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:29:55.857 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-14 19:37:25.140 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:37:25.140 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:37:25.141 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-14 19:51:24.593 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:51:24.594 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 19:51:24.594 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-14 20:04:12.258 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 20:04:12.260 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 20:04:12.260 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-14 20:04:12.511 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-14 20:04:12.550 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-14 20:04:12.551 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-14 20:04:14.777 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-14 20:09:33.322 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-14 20:09:33.347 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-14 20:09:33.382 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-14 20:09:33.383 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-14 20:09:36.108 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-14 20:11:04.099 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-14 20:11:04.110 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-14 20:11:04.139 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-14 20:11:04.140 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-14 20:11:07.406 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-14 20:11:27.411 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-14 20:11:27.420 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-14 20:11:27.449 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-14 20:11:27.450 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-14 20:11:27.900 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-14 20:11:27.907 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-14 20:11:27.937 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-14 20:11:27.938 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-14 20:11:27.963 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-14 20:11:29.995 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-14 20:11:31.557 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 20:11:31.558 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 20:11:31.558 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-14 20:11:32.910 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-14 20:11:32.970 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-14 20:11:32.970 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-14 20:11:35.145 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-14 20:12:17.168 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-14 20:12:17.187 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-14 20:12:17.217 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-14 20:12:17.217 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-14 20:12:19.276 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-14 20:12:29.460 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 20:12:29.462 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 20:12:29.463 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-14 20:12:29.992 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-14 20:12:30.130 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-14 20:12:30.130 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-14 20:12:32.329 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-14 20:12:56.793 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-14 20:12:56.805 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-14 20:12:56.836 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-14 20:12:56.836 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-14 20:12:59.006 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-14 20:13:01.789 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 20:13:01.790 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-14 20:13:01.790 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-14 20:13:02.312 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-14 20:13:02.408 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-14 20:13:02.409 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-14 20:13:04.607 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-14 20:15:12.169 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.0","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[]}.[0m
+2021-09-14 20:15:12.169 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2021-09-14 20:15:12.169 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"manifest.json"}" to all listeners.[0m
+2021-09-14 20:15:12.178 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-14 20:15:12.218 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-14 20:15:12.219 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-14 20:15:14.459 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-14 20:16:11.115 +0530 [info] 
+Please find the detailed coverage report at /Users/pchokalingam/Documents/Freshworks/sampleApp/coverage/index.html
+2021-09-16 10:25:33.766 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.13.1 on darwin[0m
+2021-09-16 10:25:34.772 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/Users/pchokalingam/Documents/Freshworks/sampleApp/.fdk/store.sqlite"[0m
+2021-09-16 10:25:34.917 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":null,"gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2021-09-16 10:25:34.918 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-16 10:25:34.919 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631618403738}}[0m
+2021-09-16 10:25:34.919 +0530 [debug] ([34mupdater.js[0m) [31mChecking for availability of new version of addon[0m
+2021-09-16 10:25:35.494 +0530 [debug] ([34mupdater.js[0m) [31mAddon is already at the latest version - 1.9.9[0m
+2021-09-16 10:25:38.195 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v12.13.1 on darwin[0m
+2021-09-16 10:25:38.597 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "/Users/pchokalingam/Documents/Freshworks/sampleApp/.fdk/store.sqlite"[0m
+2021-09-16 10:25:38.662 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2021-09-16 10:25:38.663 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631768135496}}[0m
+2021-09-16 10:25:38.663 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631768135496}}[0m
+2021-09-16 10:25:38.663 +0530 [debug] ([34mupdater.js[0m) [31mCheck interval not met, skipping addon update[0m
+2021-09-16 10:25:38.867 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.0","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"whitelisted-domains":[]}.[0m
+2021-09-16 10:25:38.868 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db as features.[0m
+2021-09-16 10:25:38.869 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631768135496}}[0m
+2021-09-16 10:25:38.881 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631768135496}}[0m
+2021-09-16 10:25:40.008 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"fdkCli":{"version":"6.13.2","dl":"https://dl.freshdev.io/cli/fdk-6.13.2.tgz","cmd":"npm install https://dl.freshdev.io/cli/fdk-6.13.2.tgz -g"},"addon":{"version":"1.9.9","dl":"https://dl.freshdev.io/cli-addon/addon-1.9.9.zip"},"forced_versions":["4.3.6"]},"last_updated":{"time_stamp":1631768135496}}[0m
+2021-09-16 10:25:40.592 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2021-09-16 10:25:40.592 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2021-09-16 10:25:40.592 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2021-09-16 10:25:40.593 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2021-09-16 10:25:40.593 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if /Users/pchokalingam/Documents/Freshworks/sampleApp/config/ exists.[0m
+2021-09-16 10:25:40.594 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json[0m
+2021-09-16 10:25:40.594 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2021-09-16 10:25:40.594 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2021-09-16 10:25:40.594 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2021-09-16 10:25:40.596 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2021-09-16 10:25:40.596 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2021-09-16 10:25:40.596 +0530 [debug] ([34mmanifest.js[0m) [31mChoosing Default validator[0m
+2021-09-16 10:25:40.597 +0530 [warn] 
+        [33m[WARN][0m We recommend to move to platform version 2.2 as we plan to deprecate the previous versions soon.
+        Please refer https://community.developers.freshworks.com/t/how-to-migrate-to-platform-version-2-2/3443 to know more details
+
+2021-09-16 10:25:40.599 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2021-09-16 10:25:40.600 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2021-09-16 10:25:40.600 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2021-09-16 10:25:40.600 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2021-09-16 10:25:40.602 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2021-09-16 10:25:40.606 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 10:25:40.606 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2021-09-16 10:25:40.606 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2021-09-16 10:25:40.741 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/bigint-pivot.js"[0m
+2021-09-16 10:25:40.743 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity-field-choice.js"[0m
+2021-09-16 10:25:40.743 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity-field.js"[0m
+2021-09-16 10:25:40.743 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/entity.js"[0m
+2021-09-16 10:25:40.744 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/record.js"[0m
+2021-09-16 10:25:40.744 +0530 [debug] ([34mindex.js[0m) [31mloading model at "/Users/pchokalingam/.nvm/versions/node/v12.13.1/lib/node_modules/fdk/lib/models/string-pivot.js"[0m
+2021-09-16 10:25:40.756 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 10:25:40.757 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2021-09-16 10:25:40.757 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2021-09-16 10:31:18.409 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 10:31:18.410 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 10:31:18.410 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 10:36:28.627 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 10:36:28.628 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 10:36:28.628 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 10:36:29.995 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:36:30.043 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:36:30.045 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:36:32.263 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 10:37:02.432 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 10:37:02.440 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:37:02.468 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:37:02.468 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:37:04.944 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 10:37:25.839 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 10:37:25.847 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:37:25.873 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:37:25.873 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:37:27.955 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 10:37:32.281 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 10:37:32.289 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:37:32.321 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:37:32.322 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:37:32.344 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 10:37:35.138 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 10:37:53.022 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 10:37:53.030 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:37:53.056 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:37:53.057 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:37:56.180 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 10:50:32.194 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 10:50:32.202 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:50:32.228 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:50:32.228 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:50:34.912 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 10:50:45.876 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 10:50:45.886 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:50:45.915 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:50:45.915 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:50:45.941 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 10:50:47.975 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 10:51:51.573 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 10:51:51.582 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:51:51.607 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:51:51.607 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:51:53.933 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 10:51:53.934 +0530 [debug] ([34mcoverage-util.js[0m) [31mError Cannot read property 'start' of undefined while writing coverage report.[0m
+2021-09-16 10:51:53.934 +0530 [debug] ([34mcoverage-util.js[0m) [31mFlushing coverage.[0m
+2021-09-16 10:53:01.377 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 10:53:01.384 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:53:01.410 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:53:01.411 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:53:04.097 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 10:53:47.827 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 10:53:47.836 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:53:47.863 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:53:47.864 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:53:49.924 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 10:54:01.306 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 10:54:01.313 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:54:01.339 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:54:01.340 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:54:01.358 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 10:54:04.149 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 10:58:04.525 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 10:58:04.535 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 10:58:04.561 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 10:58:04.561 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 10:58:06.895 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:10:44.549 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:10:44.557 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:10:44.582 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:10:44.582 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:10:46.646 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:10:54.655 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:10:54.662 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:10:54.689 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:10:54.690 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:10:54.706 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:10:56.751 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:10:56.752 +0530 [debug] ([34mcoverage-util.js[0m) [31mError Cannot read property 'start' of undefined while writing coverage report.[0m
+2021-09-16 12:10:56.752 +0530 [debug] ([34mcoverage-util.js[0m) [31mFlushing coverage.[0m
+2021-09-16 12:11:11.921 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:11:11.921 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:11:11.921 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:11:13.272 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:11:13.311 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:11:13.312 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:11:15.407 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:11:26.327 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:11:26.338 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:11:26.368 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:11:26.369 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:11:28.429 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:11:32.137 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:11:32.138 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:11:32.138 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:11:32.661 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:11:32.754 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:11:32.754 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:11:36.190 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:15:11.264 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:15:11.274 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:15:11.299 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:15:11.299 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:15:13.365 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:15:18.625 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:15:18.626 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:15:18.626 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:15:19.661 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:15:19.788 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:15:19.789 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:15:23.196 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:29:32.024 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:29:32.032 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:29:32.074 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:29:32.074 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:29:34.142 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:29:38.398 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:29:38.428 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:29:38.429 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:29:40.536 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:29:42.743 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:29:42.770 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:29:42.771 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:29:44.869 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:29:51.529 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:29:51.554 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:29:51.554 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:29:53.655 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:30:09.848 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:30:09.854 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:30:09.879 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:30:09.880 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:30:13.117 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:30:17.251 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:30:17.258 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:30:17.289 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:30:17.290 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:30:17.309 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:30:19.345 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:30:21.353 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:30:21.379 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:30:21.380 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:30:23.483 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:30:27.817 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:30:27.817 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:30:27.818 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:30:29.161 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:30:29.207 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:30:29.208 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:30:31.295 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:30:51.501 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:30:51.507 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:30:51.533 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:30:51.534 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:30:53.895 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:30:53.895 +0530 [debug] ([34mcoverage-util.js[0m) [31mError Cannot read property 'start' of undefined while writing coverage report.[0m
+2021-09-16 12:30:53.895 +0530 [debug] ([34mcoverage-util.js[0m) [31mFlushing coverage.[0m
+2021-09-16 12:30:57.338 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:30:57.346 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:30:57.374 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:30:57.382 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:30:57.395 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:30:59.431 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:31:00.697 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:31:00.697 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:31:00.697 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:31:01.227 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:31:01.302 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:31:01.302 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:31:03.430 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:31:30.568 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:31:30.581 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:31:30.606 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:31:30.606 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:31:32.663 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:31:35.724 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:31:35.733 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:31:35.758 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:31:35.759 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:31:35.774 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:31:37.813 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:31:42.967 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:31:42.976 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:31:43.003 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:31:43.003 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:31:43.018 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:31:45.058 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:32:08.711 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:32:08.720 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:32:08.748 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:32:08.749 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:32:10.834 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:32:11.980 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:32:12.005 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:32:12.005 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:32:14.099 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:32:16.524 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:32:16.525 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:32:16.525 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:32:17.837 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:32:17.874 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:32:17.874 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:32:20.018 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:33:09.309 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:33:09.318 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:33:09.342 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:33:09.343 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:33:12.061 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:33:12.061 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:33:12.061 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:33:12.591 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:33:12.640 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:33:12.641 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:33:14.755 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:33:14.755 +0530 [debug] ([34mcoverage-util.js[0m) [31mError Cannot read property 'start' of undefined while writing coverage report.[0m
+2021-09-16 12:33:14.755 +0530 [debug] ([34mcoverage-util.js[0m) [31mFlushing coverage.[0m
+2021-09-16 12:34:51.795 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:34:51.811 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:34:51.852 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:34:51.852 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:34:53.908 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:34:57.464 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:34:57.464 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:34:57.465 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:34:58.739 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:34:58.779 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:34:58.779 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:35:00.878 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:35:13.393 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:35:13.401 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:35:13.428 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:35:13.429 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:35:15.486 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:35:17.043 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:35:17.044 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:35:17.044 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:35:17.554 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:35:17.591 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:35:17.591 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:35:19.687 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:35:27.836 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:35:27.846 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:35:27.875 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:35:27.876 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:35:27.889 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:35:29.935 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:35:32.370 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:35:32.371 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:35:32.371 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:35:32.883 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:35:32.943 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:35:32.943 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:35:35.041 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:37:01.426 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:37:01.440 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:37:01.466 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:37:01.466 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:37:03.935 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:37:05.031 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:37:05.039 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:37:05.070 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:37:05.070 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:37:05.085 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:37:07.134 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:37:11.639 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:37:11.664 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:37:11.665 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:37:13.772 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:37:23.119 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:37:23.152 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:37:23.153 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:37:25.260 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:37:30.094 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:37:30.094 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:37:30.095 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:37:31.416 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:37:31.514 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:37:31.515 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:37:33.537 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:37:37.539 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:38:02.901 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:38:02.908 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:38:02.935 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:38:02.935 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:38:04.992 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:38:06.274 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:38:06.274 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:38:06.274 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:38:06.810 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:38:06.874 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:38:06.875 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:38:08.964 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:38:11.828 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:38:59.734 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:38:59.747 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:38:59.772 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:38:59.772 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:39:01.827 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:39:02.975 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:39:02.983 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:39:03.013 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:39:03.013 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:39:03.028 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:39:05.070 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:39:08.427 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:39:08.427 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:39:08.427 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:39:09.716 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:39:09.828 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:39:09.829 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:39:13.236 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:40:01.853 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:40:58.155 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:40:58.165 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:40:58.194 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:40:58.194 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:40:59.978 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:40:59.988 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:41:00.016 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:41:00.017 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:41:00.032 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:41:02.076 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:41:04.874 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:41:04.875 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:41:04.875 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:41:06.222 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:41:06.284 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:41:06.286 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:41:08.984 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:41:14.435 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:41:27.132 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:41:27.142 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:41:27.168 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:41:27.169 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:41:29.843 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:41:30.240 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:41:30.250 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:41:30.281 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:41:30.282 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:41:30.305 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:41:32.355 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:41:32.355 +0530 [debug] ([34mcoverage-util.js[0m) [31mError Cannot read property 'start' of undefined while writing coverage report.[0m
+2021-09-16 12:41:32.356 +0530 [debug] ([34mcoverage-util.js[0m) [31mFlushing coverage.[0m
+2021-09-16 12:41:39.122 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:41:39.130 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:41:39.158 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:41:39.158 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:41:39.173 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:41:41.220 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:41:48.820 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:41:48.827 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:41:48.857 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:41:48.857 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:41:48.871 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:41:50.914 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:42:06.194 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"index.html"}" to all listeners.[0m
+2021-09-16 12:42:06.202 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:42:06.228 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:42:06.228 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:42:08.282 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:42:16.938 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:42:16.938 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:42:16.938 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:42:18.231 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:42:18.256 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:42:18.256 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:42:20.360 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:42:22.357 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:42:24.362 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:42:32.922 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:42:46.449 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:42:46.455 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:42:46.477 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:42:46.477 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:42:50.273 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:42:50.273 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:42:50.273 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:42:50.776 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:42:50.863 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:42:50.863 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:42:53.216 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:43:40.890 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:43:48.889 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:44:17.806 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:44:17.815 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:44:17.841 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:44:17.842 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:44:20.904 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:44:29.511 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:44:29.518 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:44:29.563 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:44:29.576 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:44:29.576 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:44:32.009 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:44:39.911 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:44:39.911 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:44:39.911 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:44:41.179 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:44:41.293 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:44:41.294 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:44:44.044 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:45:13.344 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:45:22.090 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:45:22.097 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:45:22.127 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:45:22.127 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:45:24.198 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:45:24.199 +0530 [debug] ([34mcoverage-util.js[0m) [31mError Cannot read property 'start' of undefined while writing coverage report.[0m
+2021-09-16 12:45:24.199 +0530 [debug] ([34mcoverage-util.js[0m) [31mFlushing coverage.[0m
+2021-09-16 12:45:26.433 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:45:26.433 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:45:26.433 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:45:26.939 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:45:27.161 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:45:27.162 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:45:29.193 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:45:33.192 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:45:35.193 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:46:07.104 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:46:07.113 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:46:07.139 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:46:07.140 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:46:09.332 +0530 [debug] ([34mcoverage-util.js[0m) [31mError Cannot read property 'length' of undefined while merging coverage stats.[0m
+2021-09-16 12:46:09.332 +0530 [debug] ([34mcoverage-util.js[0m) [31mFlushing coverage.[0m
+2021-09-16 12:46:09.333 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:46:14.071 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:46:14.072 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:46:14.072 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:46:14.584 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:46:14.779 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:46:14.781 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:46:18.258 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:46:22.874 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:46:24.874 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:47:09.066 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:47:09.071 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:47:09.098 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:47:09.099 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:47:11.828 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:47:12.220 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:47:12.227 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:47:12.254 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:47:12.255 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:47:12.271 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:47:14.988 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:51:10.491 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:51:10.498 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:51:10.527 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:51:10.527 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:51:12.627 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:51:16.086 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:51:16.086 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:51:16.086 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:51:17.361 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:51:17.470 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:51:17.471 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:51:19.944 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:51:39.515 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:51:41.515 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:52:22.594 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:52:22.610 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:52:22.641 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:52:22.642 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:52:25.180 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:52:25.186 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:52:25.219 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:52:25.219 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:52:25.271 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:52:27.281 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:52:30.029 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:52:30.030 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:52:30.030 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:52:31.289 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:52:31.372 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:52:31.373 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:52:33.986 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:52:41.420 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:53:13.332 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 12:53:13.338 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:53:13.363 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:53:13.363 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:53:15.951 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:55:43.660 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:55:43.662 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2021-09-16 12:55:43.662 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"sampleApp","product":{"freshdesk":{"location":{"portal_tickets_new_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.0","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"sampleApp","placeholders":{"portal_tickets_new_sidebar":{"url":"http://localhost:10001/iframe/index.html","icon":"styles/images/icon.svg"}}}]}[0m
+2021-09-16 12:55:44.998 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2021-09-16 12:55:45.025 +0530 [debug] ([34miframe.js[0m) [31mResponding with contents of /scripts/app.js[0m
+2021-09-16 12:55:45.040 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting /Users/pchokalingam/Documents/Freshworks/sampleApp/app/scripts/app.js[0m
+2021-09-16 12:55:47.138 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:55:49.137 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:55:51.135 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:55:53.134 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:55:55.134 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:55:57.138 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:56:01.135 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 12:56:03.135 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 13:02:50.969 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 13:02:52.970 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2021-09-16 13:03:03.093 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
+2021-09-16 13:11:44.993 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"scripts/app.js"}" to all listeners.[0m
