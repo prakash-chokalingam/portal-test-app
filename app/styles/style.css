@@ -13,4 +13,37 @@ html {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+}
+
+pre {
+  width: 100%;
+}
+
+button.continue {
+  padding: 5px 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background: green;
+  color: white;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+button.cancel {
+  padding: 5px 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background: red;
+  color: white;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+
+/* utils */
+.mt-10 {
+  margin-top: 10px;
 }

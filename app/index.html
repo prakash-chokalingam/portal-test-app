@@ -10,16 +10,26 @@
   </head>
 
   <body>
-    <div class="fw-widget-wrapper" style="padding: 10px;">
+    <div class="fw-widget-wrapper">
+     <!-- events -->
       <h1>Events</h1>
-      <pre id="events-viewer" style="width: 100%;">waiting for event...</pre>
+      <div id="interceptor-block"></div>
+      <pre id="events-viewer">waiting for event...</pre>
+
+      <!-- data -->
       <h1>Data</h1>
-      <pre id="data-viewer" style="width: 100%;">...</pre>
+      <pre id="data-viewer">...</pre>
       <select id="data-selector">
         <option value="null">-- none --</option>
       </select>
 
+      <!-- interface -->
       <h1>Interface</h1>
+      <pre id="interface-viewer">...</pre>
+      <input id="interface-options" placeholder="JSON options" />
+      <select id="interface-selector" class="mt-10">
+        <option value="null">-- none --</option>
+      </select>
 
     </div>
   </body>
