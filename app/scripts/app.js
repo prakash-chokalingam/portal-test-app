@@ -25,7 +25,7 @@ function renderInterfaceApis() {
   let $interfaceSelector = document.getElementById('interface-selector');
   let $interfaceOptions = document.getElementById('interface-options');
 
-  let interfaces = ['notify', 'confirm'];
+  let interfaces = ['showNotify', 'showConfirm'];
 
   switch (client.context.location) {
     case 'portal_tickets_new_sidebar':
@@ -127,7 +127,7 @@ function renderDataApis() {
 
   switch (client.context.location) {
     case 'portal_tickets_new_sidebar':
-      data = [...data, 'ticket', 'requester', 'status_option', 'priority_options', 'ticket_type_options', 'customfield_options']
+      data = [...data, 'ticket', 'requester', 'status_options', 'priority_options', 'ticket_type_options', 'cf_custom_options']
       break;
 
     default:
